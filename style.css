@@ -1,0 +1,124 @@
+body {
+    
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #778899;
+    width: 1000px;
+}
+
+#header {
+    text-align: left;
+    width: 800px;
+
+}
+#header h1{
+    text-align: center;
+    background-color: #A9A9A9;
+    border-radius: 20px;
+}
+
+div#content {
+  float: left;
+  width: 783px;
+  height: 783px;
+  border: thin silver solid;
+  border-radius: 20px;
+  padding: 0.5em;
+  margin-bottom: 40px;
+  display: inline-block;
+}
+div#content p {
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  width: 150px;
+  clear: left;
+}
+div#content h2{
+    width:270px;
+    
+    text-align: center;
+    background-color: #A9A9A9;
+    border-radius: 20px;
+
+}
+div#content img{
+    float: left;
+    
+}
+div#content figure {
+    width:160px;   
+}
+div#content p {
+    background-color: #A9A9A9;
+    border-radius: 20px;
+    margin:0;
+}
+
+
+figure{float:left;
+text-align: center;
+margin:0 5px;
+}
+img{
+    margin-bottom: 10px;
+}
+a img.big{
+    display: none;
+}
+a:hover img.big  { 
+    display:inline;
+    position: absolute;
+    top: 148px;	          	/* shift 2 pixels to account for #frame's border */
+    left: 251px;	
+    width: 500px;/* increase the width and the height to account for the #frame's padding */
+    height: 375px;
+    border-radius: 20px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color:#000;
+    font-family: sans-serif;
+}
+
+#footer{
+    clear: both;
+    width:800px;
+    height:30px;
+    position:fixed;
+    bottom:0;
+    text-align: center;
+    background:#A9A9A9;
+    border-radius: 20px;
+}
+div#frame {
+    float: right;
+    position: relative;
+    top: 68px;
+    left: -50px;
+    width: 480px;
+    height: 355px;
+    border: thin solid silver;
+    padding: 10px;
+    color: silver;
+    border-radius: 20px;
+
+}
+video {
+    width: 500px;
+    height:315px;
+    margin: 220px 100px 10px 148px;
+    position:absolute;
+    border-radius:20px;
+}    
+iframe{
+    float:left;
+}#googleMap{
+border-radius:20px;
+text-align:center;
+margin-left:50px;}
+

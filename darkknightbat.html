@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-trasitional.dtd">
+  
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html>
+<head>
+    <title>Joey's R/C</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+	<script type="application/javascript" src="./jquery/jquery-1.11.0.min.js"> </script>
+
+
+</head>
+<body>
+     <div id="header">
+            <h1>Joey's R/C projects...</h1>
+			<p>This is the place I fly my vehicles safely and a lot open space. Contact me if you want to join me</p>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+</script>
+
+<script>
+function initialize()
+{
+var mapProp = {
+  center:new google.maps.LatLng(40.745833, -73.844722),
+  zoom:15,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+var map=new google.maps.Map(document.getElementById("googleMap")
+  ,mapProp);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<div id="googleMap" style="width:700px;height:380px;"></div>
+
+</body>
+</html>
